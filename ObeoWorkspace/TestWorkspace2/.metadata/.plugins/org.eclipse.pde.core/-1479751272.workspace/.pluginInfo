@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1007" class="org.obeonetwork.dsl.uml2.properties.Activator" localization="OSGI-INF/l10n/bundle" name="UML Designer Extended Properties" project="org.obeonetwork.dsl.uml2.properties" provider="Obeo Network"/>
+	<bundle bundleID="1008" localization="OSGI-INF/l10n/bundle" name="Tests for UML Designer Extended Properties" project="org.obeonetwork.dsl.uml2.properties.tests" provider="Obeo.fr"/>
+	<bundle bundleID="1002" class="org.obeonetwork.dsl.uml2.design.UMLDesignerPlugin" localization="plugin" name="UML Designer" project="org.obeonetwork.dsl.uml2.design" provider="Obeo Network"/>
+	<bundle bundleID="1001" localization="plugin" name="UML Designer Branding" project="org.obeonetwork.dsl.uml2.branding" provider="Obeo Network"/>
+	<bundle bundleID="1010" class="org.obeonetwork.gmf.runtime.diagram.ui.extension.ExtensionActivator" localization="plugin" name="UML Designer Extension" project="org.obeonetwork.gmf.runtime.diagram.ui.extension" provider="Obeo Network"/>
+	<bundle bundleID="1009" class="org.obeonetwork.dsl.uml2.usage.UsageActivator" localization="OSGI-INF/l10n/bundle" name="UML Designer Usage Stats collector" project="org.obeonetwork.dsl.uml2.usage" provider="Obeo Network">
+		<library name="lib/JGoogleAnalyticsTracker-1.2.1-SNAPSHOT-jar-with-dependencies.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1006" class="org.obeonetwork.dsl.uml2.profile.design.Activator" localization="OSGI-INF/l10n/bundle" name="org.obeonetwork.dsl.uml2.profile.design" project="org.obeonetwork.dsl.uml2.profile.design"/>
+	<bundle bundleID="1003" localization="plugin" name="UML Designer Documentation" project="org.obeonetwork.dsl.uml2.design.doc" provider="Obeo Network"/>
+	<bundle bundleID="1005" localization="plugin" name="Tests" project="org.obeonetwork.dsl.uml2.design.ui.tests"/>
+	<bundle bundleID="1004" class="org.obeonetwork.dsl.uml2.design.tests.Activator" localization="OSGI-INF/l10n/bundle" name="UML Designer Tests" project="org.obeonetwork.dsl.uml2.design.tests" provider="Obeo Network"/>
+	<bundle bundleID="1000" localization="OSGI-INF/l10n/bundle" name="MTL Uml Module Runtime Plug-in" project="org.eclipse.emf.eef.codegen.uml" provider="Eclipse.org"/>
+</map>

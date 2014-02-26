@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: integration
+Build-Jdk: 1.6.0_26
+Require-Bundle: org.eclipse.ui,org.eclipse.ui.intro
+Bundle-Vendor: %providerName
+Bundle-Version: 6.2.1.201401162034
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: fr.obeo.dsl.designer;singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+

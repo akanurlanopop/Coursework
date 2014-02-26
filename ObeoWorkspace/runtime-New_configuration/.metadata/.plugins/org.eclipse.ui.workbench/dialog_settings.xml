@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item value="entityconstructor.presentation.EntityconstructorModelWizardID" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.emf.eef.ui.category"/>
+			<item value="org.eclipse.emf.ecore.Wizard.category.ID"/>
+			<item value="fr.obeo.dsl.viewpoint.category"/>
+		</list>
+	</section>
+</section>

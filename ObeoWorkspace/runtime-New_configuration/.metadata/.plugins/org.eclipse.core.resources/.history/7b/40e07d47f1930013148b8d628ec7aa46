@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:tool="http://www.obeo.fr/dsl/viewpoint/description/tool/1.1.0" name="entity" version="6.7.0.201302071200">
+  <ownedViewpoints name="Basic Family">
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="Basic Family" domainClass="entityconstructor.Family">
+      <defaultLayer name="Default">
+        <nodeMappings name="Person" domainClass="entityconstructor.Person">
+          <style xsi:type="style:SquareDescription" labelExpression="[self.Name/]" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Person" nodeMappings="//@ownedViewpoints[name='Basic%20Family']/@ownedRepresentations[name='Basic%20Family']/@defaultLayer/@nodeMappings[name='Person']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="entityconstructor.Person" referenceName="Person">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="Name" valueExpression="['man'/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

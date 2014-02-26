@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 1 resources to &apos;kz.enu.entityconstructor.instance2&apos;" description="Move 1 resources to &apos;kz.enu.entityconstructor.instance2&apos;" destination="/kz.enu.entityconstructor.instance2" element1="/kz.enu.entityconstructor.instance/My.entityconstructor" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1392647017497" updateReferences="true"/>
+</session>

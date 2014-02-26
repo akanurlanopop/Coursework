@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityconstructor:Container xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:entityconstructor="http://diss.enu.kz/entityconstructor">
+  <newEReference name="Student" ParentClass="//@newEReference.1">
+    <Attributes name="Name"/>
+    <Attributes name="Age"/>
+  </newEReference>
+  <newEReference name="Group" ChildClasses="//@newEReference.0">
+    <Attributes name="Name"/>
+  </newEReference>
+  <newEReference name="Faculty" ChildClasses="//@newEReference.3 //@newEReference.4" ParentClass="//@newEReference.5">
+    <Attributes name="Name"/>
+  </newEReference>
+  <newEReference name="Teacher" ParentClass="//@newEReference.2">
+    <Attributes name="Name"/>
+  </newEReference>
+  <newEReference name="AcademicDepartment" ParentClass="//@newEReference.2">
+    <Attributes name="Name"/>
+  </newEReference>
+  <newEReference name="University" ChildClasses="//@newEReference.2">
+    <Attributes name="Name"/>
+  </newEReference>
+</entityconstructor:Container>

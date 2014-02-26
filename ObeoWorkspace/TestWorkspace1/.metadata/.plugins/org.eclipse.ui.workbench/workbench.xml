@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="108" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="-8" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="fr.obeo.dsl.viewpoint.collab.ui.tree.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.emf.codegen.ecore.genmodel.presentation.GenModelEditorID" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.emf.ecore.presentation.EcoreEditorID" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1392621475291" focus="true" label="Workspace - Modeling">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="entityconstructor package entities" partName="entityconstructor package entities" title="entityconstructor package entities" tooltip="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird/entityconstructor package entities" workbook="DefaultEditorWorkbook">
+<input SESSION_RESOURCE_URI="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" name="entityconstructor package entities" uri="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird#_R5fcgZMjEeOkxpo6ZstE-g"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.emf.codegen.ecore.genmodel.presentation.GenModelEditorID" name="entityconstructor.genmodel" partName="entityconstructor.genmodel" path="D:/Obeo/ObeoDesigner-6.2-win32.win32.x86/ObeoDesigner/workspace/TestWorkspace1/kz.enu.diss.entityconstructor/model/entityconstructor.genmodel" title="entityconstructor.genmodel" tooltip="kz.enu.diss.entityconstructor/model/entityconstructor.genmodel" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.diss.entityconstructor/model/entityconstructor.genmodel"/>
+</editor>
+</editors>
+<views>
+<view id="fr.obeo.dsl.viewpoint.ui.tools.views.model.explorer" partName="Model Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (8 items)"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="596"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="fr.obeo.dsl.viewpoint.ui.tools.views.model.explorer" activePerspective="fr.obeo.dsl.viewpoint.ui.tools.perspective.modeling">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="fr.obeo.dsl.viewpoint.ui.tools.internal.perspectives.DesignerModelingPerspective" id="fr.obeo.dsl.viewpoint.ui.tools.perspective.modeling" label="Modeling"/>
+<alwaysOnActionSet id="fr.obeo.oo15oo.oo19oo.oo221oo.oo63oo"/>
+<alwaysOnActionSet id="org.eclipse.acceleo.ide.ui.editors.template.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<show_view_action id="fr.obeo.dsl.viewpoint.ui.tools.views.model.explorer"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.acceleo.ui.interpreter.view"/>
+<show_view_action id="viewpoint.collab.commit.infos.view"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="fr.obeo.dsl.viewpoint.ui.modelingproject.wizard"/>
+<new_wizard_action id="fr.obeo.dsl.viewpoint.ui.session.creation"/>
+<new_wizard_action id="fr.obeo.dsl.viewpoint.collab.ui.sharedprojectwizard"/>
+<perspective_action id="fr.obeo.dsl.viewpoint.ui.tools.perspective.design"/>
+<perspective_action id="org.eclipse.acceleo.ide.ui.AcceleoPerspective"/>
+<perspective_action id="org.eclipse.m2m.atl.adt.ui.atlPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="fr.obeo.dsl.viewpoint.ui.tools.views.model.explorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ff44da">
+<folder activePageID="fr.obeo.dsl.viewpoint.ui.tools.views.model.explorer" appearance="2" expanded="2">
+<page content="fr.obeo.dsl.viewpoint.ui.tools.views.model.explorer" label="Model Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1ff44da">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.20586695" ratioLeft="393" ratioRight="1516" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1ff44da"/>
+<info folder="true" part="bottom" ratio="0.5831461" ratioLeft="519" ratioRight="371" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1681c" ratio="0.4992272" ratioLeft="323" ratioRight="324" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1ff44da">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.EcoreEditorID" path="/kz.enu.diss.entityconstructor/model/entityconstructor.ecore"/>
+<editor SESSION_RESOURCE_URI="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="entityconstructor package entities" uri="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird#_R5fcgZMjEeOkxpo6ZstE-g"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/impl/ClassImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/Class.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/Container.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/Person.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.ecore.presentation.EcoreEditorID" path="/kz.enu.diss.entityconstructor/model/entityconstructor.ecore"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/Attribute.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=kz.enu.diss.entityconstructor/D:\/Obeo\/ObeoDesigner-6.2-win32.win32.x86\/ObeoDesigner\/plugins\/org.eclipse.emf.ecore_2.8.3.v20130823-1130.jar&lt;org.eclipse.emf.ecore(EObject.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor.edit/src/entityconstructor/provider/ClassItemProvider.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor.editor/src/entityconstructor/presentation/EntityconstructorModelWizard.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=kz.enu.diss.entityconstructor/D:\/Obeo\/ObeoDesigner-6.2-win32.win32.x86\/ObeoDesigner\/plugins\/org.eclipse.emf.ecore_2.8.3.v20130823-1130.jar&lt;org.eclipse.emf.ecore.impl(EObjectImpl.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/util/EntityconstructorAdapterFactory.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/util/EntityconstructorSwitch.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/impl/EntityconstructorFactoryImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.codegen.ecore.genmodel.presentation.GenModelEditorID" path="/kz.enu.diss.entityconstructor/model/entityconstructor.genmodel"/>
+<editor SESSION_RESOURCE_URI="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="entityconstructor package entities" uri="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird#_R5fcgZMjEeOkxpo6ZstE-g"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.codegen.ecore.genmodel.presentation.GenModelEditorID" path="/kz.enu.diss.entityconstructor/model/entityconstructor.genmodel"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/impl/ClassImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/impl/DataTypeImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.diss.entityconstructor/src/entityconstructor/Person.java"/>
+</editors>
+<item historyLabel="entityconstructor.ecore" index="0"/>
+<item historyLabel="entityconstructor package entities" index="1"/>
+<item historyLabel="ClassImpl.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ClassImpl.java" index="2">
+<position info="not_deleted" x="1414" y="0"/>
+</item>
+<item historyLabel="ClassImpl.java" index="2">
+<position info="not_deleted" x="1415" y="0"/>
+</item>
+<item historyLabel="Class.java" index="3">
+<position info="not_deleted" x="792" y="0"/>
+</item>
+<item historyLabel="Container.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Person.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="entityconstructor.ecore" index="6"/>
+<item historyLabel="Attribute.java" index="7">
+<position info="not_deleted" x="504" y="0"/>
+</item>
+<item historyLabel="EObject.class" index="8">
+<position info="not_deleted" x="10012" y="0"/>
+</item>
+<item historyLabel="ClassItemProvider.java" index="9">
+<position info="not_deleted" x="5284" y="0"/>
+</item>
+<item historyLabel="EntityconstructorModelWizard.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Class.java" index="3">
+<position info="not_deleted" x="792" y="0"/>
+</item>
+<item historyLabel="ClassImpl.java" index="2">
+<position info="not_deleted" x="1374" y="0"/>
+</item>
+<item historyLabel="EObjectImpl.class" index="11">
+<position info="not_deleted" x="1074" y="11"/>
+</item>
+<item historyLabel="EntityconstructorAdapterFactory.java" index="12">
+<position info="not_deleted" x="3837" y="0"/>
+</item>
+<item historyLabel="EntityconstructorSwitch.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EntityconstructorAdapterFactory.java" index="12">
+<position info="not_deleted" x="3837" y="0"/>
+</item>
+<item historyLabel="EntityconstructorFactoryImpl.java" index="14">
+<position info="not_deleted" x="2348" y="0"/>
+</item>
+<item historyLabel="EntityconstructorSwitch.java" index="13">
+<position info="not_deleted" x="2053" y="0"/>
+</item>
+<item historyLabel="ClassImpl.java" index="2">
+<position info="not_deleted" x="2813" y="0"/>
+</item>
+<item historyLabel="entityconstructor.genmodel" index="15"/>
+<item historyLabel="ClassImpl.java" index="2">
+<position info="not_deleted" x="2813" y="0"/>
+</item>
+<item historyLabel="Class.java" index="3">
+<position info="not_deleted" x="792" y="0"/>
+</item>
+<item historyLabel="ClassImpl.java" index="2">
+<position info="not_deleted" x="2813" y="0"/>
+</item>
+<item historyLabel="entityconstructor package entities" index="16"/>
+<item historyLabel="entityconstructor.genmodel" index="17"/>
+<item historyLabel="ClassImpl.java" index="18">
+<position info="not_deleted" x="3046" y="0"/>
+</item>
+<item historyLabel="entityconstructor.genmodel" index="17"/>
+<item historyLabel="entityconstructor package entities" index="16"/>
+<item historyLabel="entityconstructor.genmodel" index="17"/>
+<item historyLabel="entityconstructor package entities" index="16"/>
+<item historyLabel="DataTypeImpl.java" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="entityconstructor.genmodel" index="17"/>
+<item historyLabel="entityconstructor package entities" index="16"/>
+<item historyLabel="entityconstructor.genmodel" index="17"/>
+<item historyLabel="entityconstructor package entities" index="16"/>
+<item historyLabel="entityconstructor.genmodel" index="17"/>
+<item historyLabel="Person.java" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="entityconstructor.genmodel" index="17"/>
+<item historyLabel="entityconstructor package entities" index="16"/>
+<item historyLabel="entityconstructor.genmodel" index="17"/>
+<item historyLabel="entityconstructor package entities" index="16"/>
+<item active="true" historyLabel="entityconstructor.genmodel" index="17"/>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Person.java" tooltip="kz.enu.diss.entityconstructor/src/entityconstructor/Person.java">
+<persistable path="/kz.enu.diss.entityconstructor/src/entityconstructor/Person.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataTypeImpl.java" tooltip="kz.enu.diss.entityconstructor/src/entityconstructor/impl/DataTypeImpl.java">
+<persistable path="/kz.enu.diss.entityconstructor/src/entityconstructor/impl/DataTypeImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClassImpl.java" tooltip="kz.enu.diss.entityconstructor/src/entityconstructor/impl/ClassImpl.java">
+<persistable path="/kz.enu.diss.entityconstructor/src/entityconstructor/impl/ClassImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.emf.codegen.ecore.genmodel.presentation.GenModelEditorID" name="entityconstructor.genmodel" tooltip="kz.enu.diss.entityconstructor/model/entityconstructor.genmodel">
+<persistable path="/kz.enu.diss.entityconstructor/model/entityconstructor.genmodel"/>
+</file>
+<file factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="entityconstructor package entities" tooltip="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird/entityconstructor package entities">
+<persistable SESSION_RESOURCE_URI="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" name="entityconstructor package entities" uri="platform:/resource/kz.enu.diss.entityconstructor/model/entityconstructor.aird#_R5fcgZMjEeOkxpo6ZstE-g"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityconstructorFactoryImpl.java" tooltip="kz.enu.diss.entityconstructor/src/entityconstructor/impl/EntityconstructorFactoryImpl.java">
+<persistable path="/kz.enu.diss.entityconstructor/src/entityconstructor/impl/EntityconstructorFactoryImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityconstructorSwitch.java" tooltip="kz.enu.diss.entityconstructor/src/entityconstructor/util/EntityconstructorSwitch.java">
+<persistable path="/kz.enu.diss.entityconstructor/src/entityconstructor/util/EntityconstructorSwitch.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityconstructorAdapterFactory.java" tooltip="kz.enu.diss.entityconstructor/src/entityconstructor/util/EntityconstructorAdapterFactory.java">
+<persistable path="/kz.enu.diss.entityconstructor/src/entityconstructor/util/EntityconstructorAdapterFactory.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="EObjectImpl.class" tooltip="org.eclipse.emf.ecore.impl.EObjectImpl">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=kz.enu.diss.entityconstructor/D:\/Obeo\/ObeoDesigner-6.2-win32.win32.x86\/ObeoDesigner\/plugins\/org.eclipse.emf.ecore_2.8.3.v20130823-1130.jar&lt;org.eclipse.emf.ecore.impl(EObjectImpl.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityconstructorModelWizard.java" tooltip="kz.enu.diss.entityconstructor.editor/src/entityconstructor/presentation/EntityconstructorModelWizard.java">
+<persistable path="/kz.enu.diss.entityconstructor.editor/src/entityconstructor/presentation/EntityconstructorModelWizard.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClassItemProvider.java" tooltip="kz.enu.diss.entityconstructor.edit/src/entityconstructor/provider/ClassItemProvider.java">
+<persistable path="/kz.enu.diss.entityconstructor.edit/src/entityconstructor/provider/ClassItemProvider.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="EObject.class" tooltip="org.eclipse.emf.ecore.EObject">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=kz.enu.diss.entityconstructor/D:\/Obeo\/ObeoDesigner-6.2-win32.win32.x86\/ObeoDesigner\/plugins\/org.eclipse.emf.ecore_2.8.3.v20130823-1130.jar&lt;org.eclipse.emf.ecore(EObject.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Attribute.java" tooltip="kz.enu.diss.entityconstructor/src/entityconstructor/Attribute.java">
+<persistable path="/kz.enu.diss.entityconstructor/src/entityconstructor/Attribute.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Container.java" tooltip="kz.enu.diss.entityconstructor/src/entityconstructor/Container.java">
+<persistable path="/kz.enu.diss.entityconstructor/src/entityconstructor/Container.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Class.java" tooltip="kz.enu.diss.entityconstructor/src/entityconstructor/Class.java">
+<persistable path="/kz.enu.diss.entityconstructor/src/entityconstructor/Class.java"/>
+</file>
+</mruList>
+</workbench>

@@ -1,0 +1,249 @@
+!SESSION 2014-02-17 13:17:06.426 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-02-17 13:17:24.708
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2014-02-20 20:13:25.784 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-02-20 20:13:30.807
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:43.616
+!MESSAGE Compilation error for expression [EdgeArrows::InputArrow/] : Unknown type ([EdgeArrows, InputArrow])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:45.260
+!MESSAGE Compilation error for expression [EdgeArrows::FillDiamond/] : Unknown type ([EdgeArrows, FillDiamond])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:46.829
+!MESSAGE Compilation error for expression [EdgeArrows::Diamond/] : Unknown type ([EdgeArrows, Diamond])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:48.387
+!MESSAGE Compilation error for expression [EdgeArrows::InputArrowWithFillDiamond/] : Unknown type ([EdgeArrows, InputArrowWithFillDiamond])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:49.940
+!MESSAGE Compilation error for expression [EdgeArrows::InputArrowWithDiamond/] : Unknown type ([EdgeArrows, InputArrowWithDiamond])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:51.501
+!MESSAGE Compilation error for expression [EdgeArrows::InputArrow/] : Unknown type ([EdgeArrows, InputArrow])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:53.058
+!MESSAGE Compilation error for expression [EdgeArrows::FillDiamond/] : Unknown type ([EdgeArrows, FillDiamond])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:54.707
+!MESSAGE Compilation error for expression [EdgeArrows::Diamond/] : Unknown type ([EdgeArrows, Diamond])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:56.371
+!MESSAGE Compilation error for expression [EdgeArrows::InputArrowWithFillDiamond/] : Unknown type ([EdgeArrows, InputArrowWithFillDiamond])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:58.059
+!MESSAGE Compilation error for expression [EdgeArrows::InputArrowWithDiamond/] : Unknown type ([EdgeArrows, InputArrowWithDiamond])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:22:59.641
+!MESSAGE Compilation error for expression [self.isAbstract/] : Unrecognized variable: (isAbstract)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:23:01.237
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:23:09.234
+!MESSAGE Compilation error for expression [addArchetypeKeyword('MomentInterval')/] : Cannot find operation (addArchetypeKeyword(String)) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:23:17.257
+!MESSAGE Compilation error for expression [addArchetypeKeyword('Description')/] : Cannot find operation (addArchetypeKeyword(String)) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:23:25.234
+!MESSAGE Compilation error for expression [addArchetypeKeyword('Role')/] : Cannot find operation (addArchetypeKeyword(String)) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:23:33.223
+!MESSAGE Compilation error for expression [addArchetypeKeyword('Thing')/] : Cannot find operation (addArchetypeKeyword(String)) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:23:41.219
+!MESSAGE Compilation error for expression [self.isInvalidArchetypesLink()/] : Cannot find operation (isInvalidArchetypesLink()) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:24:05.437
+!MESSAGE Compilation error for expression [diagram.getNodeInverseRefs('Dependency')->select(dependency|dependency.oclIsTypeOf(uml::Dependency))/] : Cannot find operation (getNodeInverseRefs(String)) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:24:32.727
+!MESSAGE Compilation error for expression [newInterface/] : Unrecognized variable: (newInterface)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:24:35.848
+!MESSAGE Compilation error for expression [createConnector(sourceView, targetView)/] : Cannot find operation (createConnector(EObject, EObject)) for the type (Connector)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:24:37.422
+!MESSAGE Compilation error for expression [preTarget.oclIsKindOf(uml::Component)/] : Unrecognized variable: (preTarget)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:24:40.546
+!MESSAGE Compilation error for expression [createComponentRealization(source, target)/] : Cannot find operation (createComponentRealization(EObject, EObject)) for the type (ComponentRealization)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:24:45.235
+!MESSAGE Compilation error for expression [diagram.getAvailableDependencies()->filter(uml::InterfaceRealization).supplier/] : Cannot find operation (getAvailableDependencies()) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:24:46.795
+!MESSAGE Compilation error for expression [diagram.getAvailableDependencies()->filter(uml::Usage).supplier/] : Cannot find operation (getAvailableDependencies()) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:24:48.358
+!MESSAGE Compilation error for expression [diagram.getAvailableDependencies()->filter(uml::InterfaceRealization)/] : Cannot find operation (getAvailableDependencies()) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:25:06.252
+!MESSAGE Compilation error for expression [diagram.getAvailableDependencies()->filter(uml::Usage)/] : Cannot find operation (getAvailableDependencies()) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:25:11.157
+!MESSAGE Compilation error for expression [diagram.getAvailableSubConnectors()/] : Cannot find operation (getAvailableSubConnectors()) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:25:15.903
+!MESSAGE Compilation error for expression [diagram.getAvailableSubConnectors()/] : Cannot find operation (getAvailableSubConnectors()) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:25:20.568
+!MESSAGE Compilation error for expression [isConnectable(source,target) and clientDependency.supplier->includes(source) and self.clientDependency.supplier->includes(target) and isValidForEdgeMapping(sourceView,targetView)/] : Cannot find operation (isConnectable(EObject, EObject)) for the type (Connector)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:25:22.131
+!MESSAGE Compilation error for expression [diagram.getAvailableConnectors()/] : Cannot find operation (getAvailableConnectors()) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:25:26.878
+!MESSAGE Compilation error for expression [isValidForEdgeMapping(sourceView,targetView) and clientDependency->isEmpty()/] : Cannot find operation (isValidForEdgeMapping(DSemanticDecorator, DSemanticDecorator)) for the type (Connector)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:25:28.456
+!MESSAGE Compilation error for expression [diagram.getAvailableSubConnectors()/] : Cannot find operation (getAvailableSubConnectors()) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:25:33.167
+!MESSAGE Compilation error for expression [source.isConnectable(target) and self.clientDependency.supplier->includes(source) and self.clientDependency.supplier->includes(target) and isValidForEdgeMapping(sourceView,targetView)/] : Cannot find operation (isConnectable(EObject)) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:25:34.722
+!MESSAGE Compilation error for expression [diagram.getAvailableSubConnectors()/] : Cannot find operation (getAvailableSubConnectors()) for the type (DDiagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:01.871
+!MESSAGE Compilation error for expression [handleUnmeaningViews(views)/] : Cannot find operation (handleUnmeaningViews(EObject)) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:03.472
+!MESSAGE Compilation error for expression [diagram.diagramElements.target->excludes(object)/] : Unrecognized variable: (diagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:05.164
+!MESSAGE Compilation error for expression [object.oclIsKindOf(uml::EncapsulatedClassifier)/] : Unrecognized variable: (object)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:06.893
+!MESSAGE Compilation error for expression [view.target.oclIsKindOf(uml::InterfaceRealization)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:08.542
+!MESSAGE Compilation error for expression [view.targetNode.eContainer().oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:10.181
+!MESSAGE Compilation error for expression [diagram/] : Unrecognized variable: (diagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:11.816
+!MESSAGE Compilation error for expression [view.targetNode.eContainer().eContainer().oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:13.473
+!MESSAGE Compilation error for expression [view.targetNode.eContainer()/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:15.104
+!MESSAGE Compilation error for expression [view.target.oclIsKindOf(uml::Usage)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:16.741
+!MESSAGE Compilation error for expression [view.sourceNode.eContainer().oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:18.410
+!MESSAGE Compilation error for expression [diagram/] : Unrecognized variable: (diagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:20.075
+!MESSAGE Compilation error for expression [view.sourceNode.eContainer().eContainer().oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:21.711
+!MESSAGE Compilation error for expression [view.SourceNode.eContainer()/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:23.365
+!MESSAGE Compilation error for expression [view.target.oclIsKindOf(uml::EncapsulatedClassifier)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:25.001
+!MESSAGE Compilation error for expression [view.eContainer().oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:26.638
+!MESSAGE Compilation error for expression [view.target.oclAsType(uml::EncapsulatedClassifier).ownedElement->includes(object)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:28.271
+!MESSAGE Compilation error for expression [view/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:29.902
+!MESSAGE Compilation error for expression [not view.target.oclAsType(uml::EncapsulatedClassifier).ownedElement->includes(object)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:31.539
+!MESSAGE Compilation error for expression [diagram/] : Unrecognized variable: (diagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:33.197
+!MESSAGE Compilation error for expression [view.eContainer().eContainer().oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:34.826
+!MESSAGE Compilation error for expression [view.eContainer()/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:36.491
+!MESSAGE Compilation error for expression [view.target.oclIsKindOf(uml::Port)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:38.155
+!MESSAGE Compilation error for expression [view.eContainer().eContainer().oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:39.746
+!MESSAGE Compilation error for expression [not view.target.eContainer(uml::EncapsulatedClassifier).ownedElement->includes(object)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:41.310
+!MESSAGE Compilation error for expression [diagram/] : Unrecognized variable: (diagram)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:43.000
+!MESSAGE Compilation error for expression [view.eContainer().eContainer().eContainer().oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:44.700
+!MESSAGE Compilation error for expression [view.eContainer().eContainer()/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:46.406
+!MESSAGE Compilation error for expression [view.target.oclIsKindOf(uml::PackageableElement)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:48.126
+!MESSAGE Compilation error for expression [view.oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:49.821
+!MESSAGE Compilation error for expression [view.target.oclAsType(uml::Element).ownedElement->includes(object)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:51.550
+!MESSAGE Compilation error for expression [view/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:53.247
+!MESSAGE Compilation error for expression [object.oclIsKindOf(uml::Property)/] : Unrecognized variable: (object)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:54.970
+!MESSAGE Compilation error for expression [view.eContainer().eContainer().oclIsKindOf(viewpoint::DDiagram)/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:26:56.600
+!MESSAGE Compilation error for expression [view.eContainer()/] : Unrecognized variable: (view)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:27:30.334
+!MESSAGE Compilation error for expression [containerView.findUsagesToDelete(elements->filter(uml::Interface))/] : Cannot find operation (findUsagesToDelete(Set(Interface))) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:27:31.869
+!MESSAGE Compilation error for expression [containerView.findRequiredInterfacesToAdd(elements->filter(uml::Interface))/] : Cannot find operation (findRequiredInterfacesToAdd(Set(Interface))) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:27:33.419
+!MESSAGE Compilation error for expression [container.createHelperUsage(interfaceToAdd)/] : Unrecognized variable: (interfaceToAdd)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:27:34.957
+!MESSAGE Compilation error for expression [genDependencyName(interfaceToAdd, container)/] : Unrecognized variable: (interfaceToAdd)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:27:45.697
+!MESSAGE Compilation error for expression [containerView.findInterfaceRealizationsToDelete(elements->filter(uml::Interface))/] : Cannot find operation (findInterfaceRealizationsToDelete(Set(Interface))) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:27:47.233
+!MESSAGE Compilation error for expression [containerView.findProvidedInterfacesToAdd(elements->filter(uml::Interface))/] : Cannot find operation (findProvidedInterfacesToAdd(Set(Interface))) for the type (EObject)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:27:48.767
+!MESSAGE Compilation error for expression [container.createHelperInterfaceRealization(interfaceToAdd)/] : Unrecognized variable: (interfaceToAdd)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:28:01.059
+!MESSAGE Compilation error for expression [createConnector(sourceView, targetView)/] : Cannot find operation (createConnector(EObject, EObject)) for the type (Connector)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2014-02-20 20:28:02.603
+!MESSAGE Compilation error for expression [diagram.getNodeInverseRefs('Dependency')->select(d|d.oclIsTypeOf(Dependency) or d.oclIsTypeOf(Manifestation))/] : Cannot find operation (getNodeInverseRefs(String)) for the type (DDiagram)

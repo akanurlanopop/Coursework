@@ -1,0 +1,165 @@
+/**
+ */
+package entityconstructor.impl;
+
+import entityconstructor.EntityconstructorPackage;
+import entityconstructor.Person;
+
+import java.util.Date;
+
+import org.eclipse.emf.common.notify.Notification;
+
+import org.eclipse.emf.ecore.EClass;
+
+import org.eclipse.emf.ecore.impl.ENotificationImpl;
+import org.eclipse.emf.ecore.impl.EObjectImpl;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Person</b></em>'.
+ * <!-- end-user-doc -->
+ * <p>
+ * The following features are implemented:
+ * <ul>
+ *   <li>{@link entityconstructor.impl.PersonImpl#getNewAttribute <em>New Attribute</em>}</li>
+ * </ul>
+ * </p>
+ *
+ * @generated
+ */
+public class PersonImpl extends EObjectImpl implements Person {
+	/**
+	 * The default value of the '{@link #getNewAttribute() <em>New Attribute</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getNewAttribute()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final Date NEW_ATTRIBUTE_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getNewAttribute() <em>New Attribute</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getNewAttribute()
+	 * @generated
+	 * @ordered
+	 */
+	protected Date newAttribute = NEW_ATTRIBUTE_EDEFAULT;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PersonImpl() {
+		super();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return EntityconstructorPackage.Literals.PERSON;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Date getNewAttribute() {
+		return newAttribute;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setNewAttribute(Date newNewAttribute) {
+		Date oldNewAttribute = newAttribute;
+		newAttribute = newNewAttribute;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, EntityconstructorPackage.PERSON__NEW_ATTRIBUTE, oldNewAttribute, newAttribute));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+		switch (featureID) {
+			case EntityconstructorPackage.PERSON__NEW_ATTRIBUTE:
+				return getNewAttribute();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void eSet(int featureID, Object newValue) {
+		switch (featureID) {
+			case EntityconstructorPackage.PERSON__NEW_ATTRIBUTE:
+				setNewAttribute((Date)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void eUnset(int featureID) {
+		switch (featureID) {
+			case EntityconstructorPackage.PERSON__NEW_ATTRIBUTE:
+				setNewAttribute(NEW_ATTRIBUTE_EDEFAULT);
+				return;
+		}
+		super.eUnset(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public boolean eIsSet(int featureID) {
+		switch (featureID) {
+			case EntityconstructorPackage.PERSON__NEW_ATTRIBUTE:
+				return NEW_ATTRIBUTE_EDEFAULT == null ? newAttribute != null : !NEW_ATTRIBUTE_EDEFAULT.equals(newAttribute);
+		}
+		return super.eIsSet(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String toString() {
+		if (eIsProxy()) return super.toString();
+
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (newAttribute: ");
+		result.append(newAttribute);
+		result.append(')');
+		return result.toString();
+	}
+
+} //PersonImpl

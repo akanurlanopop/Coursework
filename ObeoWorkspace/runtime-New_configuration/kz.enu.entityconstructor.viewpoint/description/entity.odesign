@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:tool="http://www.obeo.fr/dsl/viewpoint/description/tool/1.1.0" name="entity" version="6.7.0.201302071200">
+  <ownedViewpoints name="Basic Family">
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="Basic Family" domainClass="entityconstructor.Family" enablePopupBars="true">
+      <defaultLayer name="Family">
+        <nodeMappings name="Person" label="Person" semanticCandidatesExpression="[members/]" domainClass="entityconstructor.Person">
+          <style xsi:type="style:SquareDescription" labelExpression="[self.Name/]" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <containerMappings name="UmlClass" createElements="false" semanticElements="&lt;%self.getSemanticElements()%>" domainClass="uml.Class" reusedNodeMappings="//@ownedViewpoints[name='Basic%20Family']/@ownedRepresentations[name='Basic%20Family']/@defaultLayer/@nodeMappings[name='Person']" childrenPresentation="List">
+          <style xsi:type="style:FlatContainerStyleDescription" labelExpression="&lt;%computeUmlLabel()%>" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Family">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Person" nodeMappings="//@ownedViewpoints[name='Basic%20Family']/@ownedRepresentations[name='Basic%20Family']/@defaultLayer/@nodeMappings[name='Person']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool:CreateInstance" typeName="entityconstructor.Person" referenceName="members">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="Class&lt;%eContainer().eContents().filter(&quot;Class&quot;).nSize()%>"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
