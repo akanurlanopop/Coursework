@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1393424421368" transient="false" version="3.0">
+<config date="1394876853151" transient="false" version="3.0">
 <site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
 <feature id="org.eclipse.net4j.util.doc" url="features/org.eclipse.net4j.util.doc_4.2.0.v20130612-0849/" version="4.2.0.v20130612-0849">
 </feature>

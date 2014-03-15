@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1000" localization="plugin" name="%pluginName" project="kz.enu.diss.entityconstructor.tests" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1001" class="entityconstructor.presentation.EntityconstructorEditorPlugin$Implementation" localization="plugin" name="%pluginName" project="kz.enu.diss.entityconstructor.editor" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1002" localization="plugin" name="%pluginName" project="kz.enu.diss.entityconstructor" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1003" class="entityconstructor.provider.EntityconstructorEditPlugin$Implementation" localization="plugin" name="%pluginName" project="kz.enu.diss.entityconstructor.edit" provider="%providerName">
+		<library name="."/>
+	</bundle>
+</map>

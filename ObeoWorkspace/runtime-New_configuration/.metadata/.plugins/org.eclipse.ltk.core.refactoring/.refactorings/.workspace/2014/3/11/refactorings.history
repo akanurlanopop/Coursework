@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;kz.enu.entityconstructor.codegenerator&apos;" deleteContents="true" description="Delete resource &apos;kz.enu.entityconstructor.codegenerator&apos;" element1="/kz.enu.entityconstructor.codegenerator" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1394873455011"/>
+</session>

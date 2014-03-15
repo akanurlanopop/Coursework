@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.acceleo.ide.ui.launching.launchConfigurationType">
+<stringAttribute key="org.eclipse.acceleo.ide.ui.ARGUMENTS" value=""/>
+<booleanAttribute key="org.eclipse.acceleo.ide.ui.COMPUTE_PROFILING" value="false"/>
+<booleanAttribute key="org.eclipse.acceleo.ide.ui.COMPUTE_TRACEABILITY" value="false"/>
+<stringAttribute key="org.eclipse.acceleo.ide.ui.LAUNCHING_STRATEGY_DESCRIPTION" value="Acceleo Plug-in Application (Default)"/>
+<stringAttribute key="org.eclipse.acceleo.ide.ui.MODEL_PATH" value="/kz.enu.entityconstructor.instance2/My.entityconstructor"/>
+<stringAttribute key="org.eclipse.acceleo.ide.ui.TARGET_PATH" value="/kz.enu.entityconstructor.codegenerator/src-gen"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/Generate.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="kz.enu.entityconstructor.codegenerator.main.Generate"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="&quot;C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.instance2/My.entityconstructor&quot; &quot;C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.codegenerator/src-gen&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="kz.enu.entityconstructor.codegenerator"/>
+</launchConfiguration>

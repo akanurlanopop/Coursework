@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="29" version="2.0">
+<workbench progressCount="28" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="528" y="-16">
 <fastViewData fastViewLocation="1024"/>
@@ -14,15 +14,18 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="fr.obeo.dsl.viewpoint.collab.ui.tree.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ant.ui.internal.editor.AntEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.acceleo.ide.ui.editors.template.AcceleoEditor" itemType="typePlaceholder" x="61" y="22"/>
-<coolItem id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.acceleo.ide.ui.editors.template.AcceleoEditor" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="entityconstructor.presentation.EntityconstructorEditorID" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -38,45 +41,104 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" name="My.odesign" partName="My.odesign" path="D:/Obeo/ObeoDesigner-6.2-win32.win32.x86/ObeoDesigner/workspace/runtime-New_configuration/kz.enu.entityconstructor.viepoint/description/My.odesign" title="My.odesign" tooltip="kz.enu.entityconstructor.viepoint/description/My.odesign" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.viepoint/description/My.odesign"/>
-</editor>
-<editor id="entityconstructor.presentation.EntityconstructorEditorID" name="My.entityconstructor" partName="My.entityconstructor" path="D:/Obeo/ObeoDesigner-6.2-win32.win32.x86/ObeoDesigner/workspace/runtime-New_configuration/kz.enu.entityconstructor.instance2/My.entityconstructor" title="My.entityconstructor" tooltip="kz.enu.entityconstructor.instance2/My.entityconstructor" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="entityconstructor.presentation.EntityconstructorEditorID" name="My.entityconstructor" partName="My.entityconstructor" path="C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.instance2/My.entityconstructor" title="My.entityconstructor" tooltip="kz.enu.entityconstructor.instance2/My.entityconstructor" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.instance2/My.entityconstructor"/>
 </editor>
-<editor id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Container" partName="new Container" title="new Container" tooltip="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird/new Container" workbook="DefaultEditorWorkbook">
-<input SESSION_RESOURCE_URI="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" name="new Container" uri="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird#_Y8o1IZo0EeO_3ouZddERzQ"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Generate.java" partName="Generate.java" path="C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/Generate.java" title="Generate.java" tooltip="kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/Generate.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/Generate.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="81" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activator.java" partName="Activator.java" path="D:/Obeo/ObeoDesigner-6.2-win32.win32.x86/ObeoDesigner/workspace/runtime-New_configuration/kz.enu.entityconstructor.viepoint/src/kz/enu/entityconstructor/viepoint/Activator.java" title="Activator.java" tooltip="kz.enu.entityconstructor.viepoint/src/kz/enu/entityconstructor/viepoint/Activator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.viepoint/src/kz/enu/entityconstructor/viepoint/Activator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="731" selectionTopPixel="479"/>
+<editor id="org.eclipse.acceleo.ide.ui.editors.template.AcceleoEditor" name="generate.mtl" partName="generate.mtl" path="C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/generate.mtl" title="generate.mtl" tooltip="kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/generate.mtl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/generate.mtl"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="217" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="entityconstructor.presentation.EntityconstructorEditorID" name="My1.entityconstructor" partName="My1.entityconstructor" path="D:/Obeo/ObeoDesigner-6.2-win32.win32.x86/ObeoDesigner/workspace/runtime-New_configuration/kz.enu.entityconstructor.instance2/My1.entityconstructor" title="My1.entityconstructor" tooltip="kz.enu.entityconstructor.instance2/My1.entityconstructor" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.instance2/My1.entityconstructor"/>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Academic Department" partName="Academic Department" path="C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.codegenerator/src-gen/Academic Department" title="Academic Department" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Academic Department" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.codegenerator/src-gen/Academic Department"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Faculty" partName="Faculty" path="C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.codegenerator/src-gen/Faculty" title="Faculty" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Faculty" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.codegenerator/src-gen/Faculty"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Group" partName="Group" path="C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.codegenerator/src-gen/Group" title="Group" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Group" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.codegenerator/src-gen/Group"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Student" partName="Student" path="C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.codegenerator/src-gen/Student" title="Student" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Student" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.codegenerator/src-gen/Student"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Teacher" partName="Teacher" path="C:/Users/nurlan.akashayev/Documents/GitHub/Coursework/ObeoWorkspace/runtime-New_configuration/kz.enu.entityconstructor.codegenerator/src-gen/Teacher" title="Teacher" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Teacher" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kz.enu.entityconstructor.codegenerator/src-gen/Teacher"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="24" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="fr.obeo.dsl.viewpoint.ui.tools.views.model.explorer" partName="Model Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
+<view id="org.eclipse.acceleo.ide.ui.views.overrides.OverridesBrowser" partName="Overrides">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (4 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="190" org.eclipse.ui.ide.markerType="356" org.eclipse.ui.ide.pathField="324" org.eclipse.ui.ide.resourceField="202" org.eclipse.ui.ide.severityAndDescriptionField="635"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.acceleo.ui.interpreter.view" partName="Interpreter">
+<viewState org.eclipse.acceleo.ui.interpreter.memento.current.language="fr.obeo.dsl.common.acceleo.interpreter.ViewpointInterpreter" org.eclipse.acceleo.ui.interpreter.memento.expression="" org.eclipse.acceleo.ui.interpreter.memento.realtime="true" org.eclipse.acceleo.ui.interpreter.memento.variables.hide="false"/>
+</view>
+<view id="org.eclipse.acceleo.ide.ui.views.proposals.ProposalsBrowser" partName="Generation Patterns">
+<viewState/>
+</view>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log"/>
+<view id="org.eclipse.acceleo.ide.ui.views.result.AcceleoResultView" partName="Result">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>&#x0A;<filter element="*.class" isEnabled="false"/>
+<filter element=".*" isEnabled="false"/>
+</filters>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
@@ -159,75 +221,234 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.acceleo.internal.ide.ui.perspectives.AcceleoPerspectiveFactory" id="org.eclipse.acceleo.ide.ui.AcceleoPerspective" label="Acceleo"/>
+<alwaysOnActionSet id="fr.obeo.oo15oo.oo19oo.oo221oo.oo63oo"/>
+<alwaysOnActionSet id="org.eclipse.acceleo.ide.ui.editors.template.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<show_view_action id="org.eclipse.acceleo.ide.ui.views.result.AcceleoResultView"/>
+<show_view_action id="org.eclipse.acceleo.ide.ui.views.overrides.OverridesBrowser"/>
+<show_view_action id="org.eclipse.acceleo.ide.ui.views.proposals.ProposalsBrowser"/>
+<show_view_action id="org.eclipse.acceleo.ui.interpreter.view"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="fr.obeo.dsl.viewpoint.ui.tools.views.model.explorer"/>
+<new_wizard_action id="org.eclipse.acceleo.ide.ui.wizards.newfile.AcceleoModuleWizard"/>
+<new_wizard_action id="org.eclipse.acceleo.ide.ui.wizards.newfile.AcceleoNewTemplatesWizard"/>
+<new_wizard_action id="org.eclipse.acceleo.ide.ui.wizards.newfile.main.AcceleoNewMainTemplateWizard"/>
+<new_wizard_action id="org.eclipse.acceleo.ide.ui.wizards.newproject.AcceleoNewProjectWizard"/>
+<new_wizard_action id="org.eclipse.acceleo.ide.ui.wizards.newproject.AcceleoNewProjectUIWizard"/>
+<new_wizard_action id="org.eclipse.acceleo.ide.ui.wizards.newproject.AcceleoConvertProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="fr.obeo.dsl.viewpoint.ui.modelingproject.wizard"/>
+<new_wizard_action id="fr.obeo.dsl.viewpoint.collab.ui.sharedprojectwizard"/>
+<new_wizard_action id="fr.obeo.dsl.viewpoint.ui.session.creation"/>
+<perspective_action id="org.eclipse.acceleo.ide.ui.AcceleoPerspective"/>
+<perspective_action id="fr.obeo.dsl.viewpoint.ui.tools.perspective.modeling"/>
+<perspective_action id="fr.obeo.dsl.viewpoint.ui.tools.perspective.design"/>
+<perspective_action id="org.eclipse.m2m.atl.adt.ui.atlPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.acceleo.ui.interpreter.view"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.acceleo.ide.ui.views.result.AcceleoResultView"/>
+<view id="org.eclipse.acceleo.ide.ui.views.overrides.OverridesBrowser"/>
+<view id="org.eclipse.acceleo.ide.ui.views.proposals.ProposalsBrowser"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="478" ratioRight="1434" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.6325843" ratioLeft="563" ratioRight="327" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.acceleo.ui.interpreter.view" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.acceleo.ui.interpreter.view" label="Interpreter"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5feb9" ratio="0.5" ratioLeft="717" ratioRight="717" relationship="2" relative="bottom">&#x0A;<folder activePageID="org.eclipse.acceleo.ide.ui.views.proposals.ProposalsBrowser" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.acceleo.ide.ui.views.result.AcceleoResultView" label="Result"/>
+<page content="org.eclipse.acceleo.ide.ui.views.overrides.OverridesBrowser" label="Overrides"/>
+<page content="org.eclipse.acceleo.ide.ui.views.proposals.ProposalsBrowser" label="Generation Patterns"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@12d209a" ratio="0.7496513" ratioLeft="1075" ratioRight="359" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" path="/kz.enu.entityconstructor.instance2/My.entityconstructor"/>
+<editor bundle="org.eclipse.emf.common.ui" class="org.eclipse.emf.common.ui.URIEditorInput" factoryID="org.eclipse.emf.common.ui.URIEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Container" uri="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird#_Y8o1IZo0EeO_3ouZddERzQ"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" path="/kz.enu.entityconstructor.viepoint/description/My.odesign"/>
-<editor bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Container" uri="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird#_Y8o1IZo0EeO_3ouZddERzQ"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" path="/kz.enu.entityconstructor.viepoint/description/My.odesign"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" path="/kz.enu.entityconstructor.instance2/My.entityconstructor"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" path="/kz.enu.entityconstructor.instance2/My.entityconstructor"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" path="/kz.enu.entityconstructor.viepoint/description/My.odesign"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" path="/kz.enu.entityconstructor.viepoint/description/My.odesign"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" path="/kz.enu.entityconstructor.instance2/My.entityconstructor"/>
-<editor SESSION_RESOURCE_URI="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Container" uri="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird#_Y8o1IZo0EeO_3ouZddERzQ"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.entityconstructor.viepoint/src/kz/enu/entityconstructor/viepoint/Activator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.ui.fakeeditoronlyforicon" path="/kz.enu.entityconstructor.instance2/representations.aird"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" path="/kz.enu.entityconstructor.instance2/My1.entityconstructor"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.ui.fakeeditoronlyforicon" path="/kz.enu.entityconstructor.intance/representations.aird"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" path="/kz.enu.entityconstructor.intance/My.entityconstructor"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" path="/kz.enu.entityconstructor.instance2/My.entityconstructor"/>
+<editor bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Container" uri="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird#_Y8o1IZo0EeO_3ouZddERzQ"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/Generate.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.acceleo.ide.ui.editors.template.AcceleoEditor" path="/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/generate.mtl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/kz.enu.entityconstructor.codegenerator/src-gen/Academic Department"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/kz.enu.entityconstructor.codegenerator/src-gen/Faculty"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/kz.enu.entityconstructor.codegenerator/src-gen/Group"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/kz.enu.entityconstructor.codegenerator/src-gen/Student"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/kz.enu.entityconstructor.codegenerator/src-gen/Teacher"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" path="/kz.enu.entityconstructor.instance2/My.entityconstructor"/>
 </editors>
-<item historyLabel="My.odesign" index="1"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.odesign" index="1"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.odesign" index="1"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.odesign" index="1"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.odesign" index="1"/>
 <item historyLabel="My.entityconstructor" index="0"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.odesign" index="1"/>
-<item historyLabel="My.entityconstructor" index="0"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.entityconstructor" index="0"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.entityconstructor" index="0"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.entityconstructor" index="0"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.entityconstructor" index="0"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.odesign" index="1"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.odesign" index="3"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.entityconstructor" index="4"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.odesign" index="3"/>
-<item historyLabel="My.entityconstructor" index="4"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.entityconstructor" index="4"/>
-<item historyLabel="My.odesign" index="3"/>
-<item historyLabel="My.entityconstructor" index="4"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.entityconstructor" index="4"/>
-<item historyLabel="new Container" index="2"/>
-<item historyLabel="My.entityconstructor" index="5"/>
-<item historyLabel="My.odesign" index="6"/>
-<item historyLabel="My.entityconstructor" index="5"/>
-<item historyLabel="My.odesign" index="7"/>
-<item historyLabel="My.entityconstructor" index="8"/>
-<item historyLabel="new Container" index="9"/>
-<item historyLabel="My.entityconstructor" index="8"/>
-<item historyLabel="My.odesign" index="7"/>
-<item historyLabel="My.entityconstructor" index="8"/>
-<item historyLabel="Activator.java" index="10">
-<position info="not_deleted" x="731" y="0"/>
+<item historyLabel="new Container" index="1"/>
+<item historyLabel="My.odesign" index="2"/>
+<item historyLabel="representations.aird" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="My.odesign" index="7"/>
-<item historyLabel="My.entityconstructor" index="8"/>
-<item active="true" historyLabel="My1.entityconstructor" index="11"/>
+<item historyLabel="My1.entityconstructor" index="4"/>
+<item historyLabel="My.odesign" index="2"/>
+<item historyLabel="representations.aird" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="My.entityconstructor" index="6"/>
+<item historyLabel="new Container" index="1"/>
+<item historyLabel="My.entityconstructor" index="7"/>
+<item historyLabel="new Container" index="1"/>
+<item historyLabel="My.entityconstructor" index="7"/>
+<item historyLabel="new Container" index="1"/>
+<item historyLabel="My.entityconstructor" index="7"/>
+<item historyLabel="new Container" index="1"/>
+<item historyLabel="My.entityconstructor" index="6"/>
+<item historyLabel="My.entityconstructor" index="7"/>
+<item historyLabel="representations.aird" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="new Container" index="8"/>
+<item historyLabel="representations.aird" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="My.odesign" index="2"/>
+<item historyLabel="My1.entityconstructor" index="4"/>
+<item historyLabel="My.entityconstructor" index="7"/>
+<item historyLabel="Generate.java" index="9">
+<position info="not_deleted" x="81" y="0"/>
+</item>
+<item historyLabel="generate.mtl" index="10">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="Academic Department" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Faculty" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Group" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Student" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Teacher" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Student" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Group" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Faculty" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Academic Department" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="generate.mtl" index="10">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="Generate.java" index="9">
+<position info="not_deleted" x="81" y="0"/>
+</item>
+<item historyLabel="Academic Department" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Faculty" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Group" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Student" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Teacher" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Student" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Group" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Faculty" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Academic Department" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Faculty" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Group" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Student" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Teacher" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="My.entityconstructor" index="16"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -245,38 +466,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" name="My1.entityconstructor" tooltip="kz.enu.entityconstructor.instance2/My1.entityconstructor">
-<persistable path="/kz.enu.entityconstructor.instance2/My1.entityconstructor"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Teacher" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Teacher">
+<persistable path="/kz.enu.entityconstructor.codegenerator/src-gen/Teacher"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activator.java" tooltip="kz.enu.entityconstructor.viepoint/src/kz/enu/entityconstructor/viepoint/Activator.java">
-<persistable path="/kz.enu.entityconstructor.viepoint/src/kz/enu/entityconstructor/viepoint/Activator.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Student" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Student">
+<persistable path="/kz.enu.entityconstructor.codegenerator/src-gen/Student"/>
 </file>
-<file factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Container" tooltip="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird/new Container">
-<persistable SESSION_RESOURCE_URI="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" name="new Container" uri="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird#_Y8o1IZo0EeO_3ouZddERzQ"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Group" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Group">
+<persistable path="/kz.enu.entityconstructor.codegenerator/src-gen/Group"/>
 </file>
-<file factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Container2" tooltip="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird/new Container2">
-<persistable SESSION_RESOURCE_URI="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" name="new Container2" uri="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird#_Pw-W0po0EeO_3ouZddERzQ"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Faculty" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Faculty">
+<persistable path="/kz.enu.entityconstructor.codegenerator/src-gen/Faculty"/>
 </file>
-<file factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Container" tooltip="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird/new Container">
-<persistable SESSION_RESOURCE_URI="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" name="new Container" uri="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird#_ca4FoZlqEeOLzN3u42Jg8Q"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Academic Department" tooltip="kz.enu.entityconstructor.codegenerator/src-gen/Academic Department">
+<persistable path="/kz.enu.entityconstructor.codegenerator/src-gen/Academic Department"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.acceleo.ide.ui.editors.template.AcceleoEditor" name="generate.mtl" tooltip="kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/generate.mtl">
+<persistable path="/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/generate.mtl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Generate.java" tooltip="kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/Generate.java">
+<persistable path="/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/main/Generate.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" name="My.entityconstructor" tooltip="kz.enu.entityconstructor.instance2/My.entityconstructor">
 <persistable path="/kz.enu.entityconstructor.instance2/My.entityconstructor"/>
 </file>
+<file factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Container" tooltip="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird/new Container">
+<persistable bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" name="new Container" uri="platform:/resource/kz.enu.entityconstructor.instance2/representations.aird#_Y8o1IZo0EeO_3ouZddERzQ"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" name="My.entityconstructor" tooltip="kz.enu.entityconstructor.intance/My.entityconstructor">
+<persistable path="/kz.enu.entityconstructor.intance/My.entityconstructor"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.ui.fakeeditoronlyforicon" name="representations.aird" tooltip="kz.enu.entityconstructor.intance/representations.aird">
+<persistable path="/kz.enu.entityconstructor.intance/representations.aird"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" name="My.odesign" tooltip="kz.enu.entityconstructor.viepoint/description/My.odesign">
 <persistable path="/kz.enu.entityconstructor.viepoint/description/My.odesign"/>
 </file>
-<file factoryID="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInputFactory" id="fr.obeo.dsl.viewpoint.diagram.part.ViewpointDiagramEditorID" name="new Basic Family" tooltip="platform:/resource/kz.enu.entityconstructor.instance/representations.aird/new Basic Family">
-<persistable SESSION_RESOURCE_URI="platform:/resource/kz.enu.entityconstructor.instance/representations.aird" bundle="fr.obeo.dsl.viewpoint.ui" class="fr.obeo.dsl.viewpoint.ui.business.api.session.SessionEditorInput" name="new Basic Family" uri="platform:/resource/kz.enu.entityconstructor.instance/representations.aird#_upSooZVvEeOH4qN31aslGA"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" name="My1.entityconstructor" tooltip="kz.enu.entityconstructor.instance2/My1.entityconstructor">
+<persistable path="/kz.enu.entityconstructor.instance2/My1.entityconstructor"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" name="My.odesign" tooltip="kz.enu.entityconstructor.viewpoint/description/My.odesign">
-<persistable path="/kz.enu.entityconstructor.viewpoint/description/My.odesign"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.ui.fakeeditoronlyforicon" name="representations.aird" tooltip="kz.enu.entityconstructor.instance2/representations.aird">
+<persistable path="/kz.enu.entityconstructor.instance2/representations.aird"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.obeo.dsl.viewpoint.editor.editorPlugin.ViewpointEditorID" name="My.odesign" tooltip="kz.enu.entityconstructor.instance.view/description/My.odesign">
-<persistable path="/kz.enu.entityconstructor.instance.view/description/My.odesign"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="entityconstructor.presentation.EntityconstructorEditorID" name="My.entityconstructor" tooltip="kz.enu.diss.entitycontructor.instance/My.entityconstructor">
-<persistable path="/kz.enu.diss.entitycontructor.instance/My.entityconstructor"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.acceleo.ide.ui.editors.template.AcceleoEditor" name="main.mtl" tooltip="kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/common/main.mtl">
+<persistable path="/kz.enu.entityconstructor.codegenerator/src/kz/enu/entityconstructor/codegenerator/common/main.mtl"/>
 </file>
 </mruList>
 </workbench>
