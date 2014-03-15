@@ -67,6 +67,7 @@ public class CardItemProvider
 			addChildClassesPropertyDescriptor(object);
 			addParentClassPropertyDescriptor(object);
 			addDictionariesPropertyDescriptor(object);
+			addCodePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -160,6 +161,28 @@ public class CardItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the Code feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addCodePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Card_code_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Card_code_feature", "_UI_Card_type"),
+				 EntityconstructorPackage.Literals.CARD__CODE,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
 	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
 	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
@@ -227,6 +250,7 @@ public class CardItemProvider
 
 		switch (notification.getFeatureID(Card.class)) {
 			case EntityconstructorPackage.CARD__NAME:
+			case EntityconstructorPackage.CARD__CODE:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case EntityconstructorPackage.CARD__ATTRIBUTES:

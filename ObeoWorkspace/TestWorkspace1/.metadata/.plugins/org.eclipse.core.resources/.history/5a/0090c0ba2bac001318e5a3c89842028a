@@ -1,0 +1,35 @@
+#
+
+pluginName = Entityconstructor Edit Support
+providerName = www.example.org
+
+_UI_CreateChild_text = {0}
+_UI_CreateChild_text2 = {1} {0}
+_UI_CreateChild_text3 = {1}
+_UI_CreateChild_tooltip = Create New {0} Under {1} Feature
+_UI_CreateChild_description = Create a new child of type {0} for the {1} feature of the selected {2}.
+_UI_CreateSibling_description = Create a new sibling of type {0} for the selected {2}, under the {1} feature of their parent.
+
+_UI_PropertyDescriptor_description = The {0} of the {1}
+
+_UI_Card_type = Card
+_UI_Attribute_type = Attribute
+_UI_Container_type = Container
+_UI_DataType_type = Data Type
+_UI_Dictionary_type = Dictionary
+_UI_Unknown_type = Object
+
+_UI_Unknown_datatype= Value
+
+_UI_Card_Attributes_feature = Attributes
+_UI_Card_name_feature = Name
+_UI_Card_ChildClasses_feature = Child Classes
+_UI_Card_ParentClass_feature = Parent Class
+_UI_Card_Dictionaries_feature = Dictionaries
+_UI_Attribute_name_feature = Name
+_UI_Container_newEReference_feature = New EReference
+_UI_DataType_DataType_feature = Data Type
+_UI_DataType_name_feature = Name
+_UI_Dictionary_name_feature = Name
+_UI_Unknown_feature = Unspecified
+

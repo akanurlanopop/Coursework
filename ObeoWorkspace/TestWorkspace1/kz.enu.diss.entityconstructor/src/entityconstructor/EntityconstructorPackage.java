@@ -111,13 +111,22 @@ public interface EntityconstructorPackage extends EPackage {
 	int CARD__DICTIONARIES = 4;
 
 	/**
+	 * The feature id for the '<em><b>Code</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CARD__CODE = 5;
+
+	/**
 	 * The number of structural features of the '<em>Card</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int CARD_FEATURE_COUNT = 5;
+	int CARD_FEATURE_COUNT = 6;
 
 	/**
 	 * The meta object id for the '{@link entityconstructor.impl.AttributeImpl <em>Attribute</em>}' class.
@@ -307,6 +316,17 @@ public interface EntityconstructorPackage extends EPackage {
 	EReference getCard_Dictionaries();
 
 	/**
+	 * Returns the meta object for the attribute '{@link entityconstructor.Card#getCode <em>Code</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Code</em>'.
+	 * @see entityconstructor.Card#getCode()
+	 * @see #getCard()
+	 * @generated
+	 */
+	EAttribute getCard_Code();
+
+	/**
 	 * Returns the meta object for class '{@link entityconstructor.Attribute <em>Attribute</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -472,6 +492,14 @@ public interface EntityconstructorPackage extends EPackage {
 		 * @generated
 		 */
 		EReference CARD__DICTIONARIES = eINSTANCE.getCard_Dictionaries();
+
+		/**
+		 * The meta object literal for the '<em><b>Code</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CARD__CODE = eINSTANCE.getCard_Code();
 
 		/**
 		 * The meta object literal for the '{@link entityconstructor.impl.AttributeImpl <em>Attribute</em>}' class.

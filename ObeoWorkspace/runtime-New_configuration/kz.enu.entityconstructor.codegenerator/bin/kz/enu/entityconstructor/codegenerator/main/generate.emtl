@@ -6,21 +6,54 @@
     </input>
     <ownedModuleElement xsi:type="mtl:Template" name="generateElement" visibility="Public" main="true">
       <body xsi:type="mtl:FileBlock" openMode="OverWrite">
-        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="public class "/>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="package entities;&#xA;&#xA;import java.util.Date;&#xA;&#xA;public class "/>
         <body xsi:type="ocl.ecore:PropertyCallExp">
           <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
           <source xsi:type="ocl.ecore:VariableExp" name="card" referredVariable="/0/generateElement/card">
             <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
           </source>
-          <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Card/name"/>
+          <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Card/code"/>
         </body>
-        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" {&#xA;}&#xA;"/>
-        <fileUrl xsi:type="ocl.ecore:PropertyCallExp">
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" {&#xA;"/>
+        <body xsi:type="mtl:ForBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#x9;&#x9;public String "/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="attribute" referredVariable="/0/generateElement/@body.0/@body.3/attribute">
+              <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Attribute"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Attribute/name"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=";&#xA;"/>
+          <loopVariable name="attribute">
+            <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Attribute"/>
+          </loopVariable>
+          <iterSet xsi:type="ocl.ecore:PropertyCallExp" eType="/9/OrderedSet(Attribute)">
+            <source xsi:type="ocl.ecore:VariableExp" name="card" referredVariable="/0/generateElement/card">
+              <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+            </source>
+            <referredProperty xsi:type="ecore:EReference" href="http://diss.enu.kz/entityconstructor#//Card/Attributes"/>
+          </iterSet>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="}&#xA;"/>
+        <fileUrl xsi:type="ocl.ecore:OperationCallExp" referredOperation="/1/String_Class/+">
           <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
-          <source xsi:type="ocl.ecore:VariableExp" name="card" referredVariable="/0/generateElement/card">
-            <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+          <source xsi:type="ocl.ecore:OperationCallExp" referredOperation="/1/String_Class/+">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+            <source xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="entities/">
+              <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+            </source>
+            <argument xsi:type="ocl.ecore:PropertyCallExp">
+              <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="card" referredVariable="/0/generateElement/card">
+                <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+              </source>
+              <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Card/name"/>
+            </argument>
           </source>
-          <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Card/name"/>
+          <argument xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=".java">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          </argument>
         </fileUrl>
         <charset xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="UTF-8">
           <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
@@ -30,12 +63,106 @@
         <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
       </parameter>
     </ownedModuleElement>
+    <ownedModuleElement xsi:type="mtl:Template" name="name" visibility="Public" main="true">
+      <body xsi:type="mtl:FileBlock" openMode="OverWrite">
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="import java.sql.Date;&#xA;&#xA;import com.db4o.Db4oEmbedded;&#xA;import com.db4o.ObjectContainer;&#xA;&#xA;"/>
+        <body xsi:type="mtl:ForBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="import entities."/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="card" referredVariable="/0/name/@body.0/@body.1/card">
+              <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Card/code"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=";&#xA;"/>
+          <loopVariable name="card">
+            <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+          </loopVariable>
+          <iterSet xsi:type="ocl.ecore:PropertyCallExp" eType="/9/OrderedSet(Card)">
+            <source xsi:type="ocl.ecore:VariableExp" name="container" referredVariable="/0/name/container">
+              <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+            </source>
+            <referredProperty xsi:type="ecore:EReference" href="http://diss.enu.kz/entityconstructor#//Container/newEReference"/>
+          </iterSet>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;public class DbInitializer {&#xA;&#xA;&#x9;private static final String DB4OFILENAME = &quot;db/db.yap&quot;;&#xA;&#x9;&#xA;&#x9;/**&#xA;&#x9; * @param args&#xA;&#x9; */&#xA;&#x9;public static void main(String"/>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="[">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="]">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" args) {&#xA;&#x9;&#x9;// TODO Auto-generated method stub&#xA;&#x9;&#x9;// accessDb4o&#xA;&#x9;&#x9;ObjectContainer db = Db4oEmbedded.openFile(Db4oEmbedded.newConfiguration(), DB4OFILENAME);&#xA;&#x9;&#x9;try {&#xA;&#x9;&#x9;    // do something with db4o&#xA;&#x9;&#x9;&#x9;&#xA;"/>
+        <body xsi:type="mtl:ForBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#x9;&#x9;&#x9;&#x9;"/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="card" referredVariable="/0/name/@body.0/@body.6/card">
+              <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Card/code"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" "/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="card" referredVariable="/0/name/@body.0/@body.6/card">
+              <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Card/code"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" = new "/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="card" referredVariable="/0/name/@body.0/@body.6/card">
+              <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Card/code"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="();&#xA;&#x9;&#x9;&#x9;&#x9;db.store("/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="card" referredVariable="/0/name/@body.0/@body.6/card">
+              <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://diss.enu.kz/entityconstructor#//Card/code"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=");&#xA;"/>
+          <loopVariable name="card">
+            <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+          </loopVariable>
+          <iterSet xsi:type="ocl.ecore:PropertyCallExp" eType="/9/OrderedSet(Card)">
+            <source xsi:type="ocl.ecore:VariableExp" name="container" referredVariable="/0/name/container">
+              <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+            </source>
+            <referredProperty xsi:type="ecore:EReference" href="http://diss.enu.kz/entityconstructor#//Container/newEReference"/>
+          </iterSet>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;} finally {&#xA;&#x9;&#x9;    db.close();&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;}&#xA;"/>
+        <fileUrl xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="DbInitializer.java">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        </fileUrl>
+        <charset xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="Cp1252">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        </charset>
+      </body>
+      <parameter name="container">
+        <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+      </parameter>
+    </ownedModuleElement>
   </mtl:Module>
   <ecore:EPackage name="additions">
     <eClassifiers xsi:type="ecore:EClass" name="String_Class">
       <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
         <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
       </eAnnotations>
+      <eOperations name="+">
+        <eAnnotations source="MTL non-standard"/>
+        <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        <eParameters name="other">
+          <eType xsi:type="ocl.ecore:AnyType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny"/>
+        </eParameters>
+      </eOperations>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Integer_Class">
       <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
@@ -59,6 +186,16 @@
         <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
         <eParameters name="card">
           <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+        </eParameters>
+      </eOperations>
+      <eOperations name="name">
+        <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+          <contents xsi:type="ocl.ecore:Constraint"/>
+        </eAnnotations>
+        <eAnnotations source="MTL" references="/0/name"/>
+        <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        <eParameters name="container">
+          <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
         </eParameters>
       </eOperations>
     </eClassifiers>
@@ -87,6 +224,11 @@
         <references href="http://diss.enu.kz/entityconstructor#//Card"/>
       </eAnnotations>
     </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Container_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://diss.enu.kz/entityconstructor#//Container"/>
+      </eAnnotations>
+    </eClassifiers>
   </ecore:EPackage>
   <ocl.ecore:Variable name="self">
     <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
@@ -109,59 +251,390 @@
   <ocl.ecore:Variable name="self">
     <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
   </ocl.ecore:Variable>
+  <ecore:EPackage name="collections">
+    <eClassifiers xsi:type="ocl.ecore:OrderedSetType" name="OrderedSet(Attribute)" instanceClassName="java.util.LinkedHashSet">
+      <elementType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Attribute"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ocl.ecore:OrderedSetType" name="OrderedSet(Card)" instanceClassName="java.util.LinkedHashSet">
+      <elementType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Attribute"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Attribute"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="i">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="i">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Card"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://diss.enu.kz/entityconstructor#//Container"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="i">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+  </ocl.ecore:Variable>
   <ocl.ecore:Variable name="self">
     <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
   </ocl.ecore:Variable>
   <ecore:EAnnotation source="positions">
     <eAnnotations source="positions.0" references="/0/generateElement">
       <details key="start" value="89"/>
-      <details key="end" value="237"/>
+      <details key="end" value="396"/>
       <details key="line" value="5"/>
     </eAnnotations>
     <eAnnotations source="positions.1" references="/0/generateElement/@body.0">
       <details key="start" value="153"/>
-      <details key="end" value="225"/>
+      <details key="end" value="384"/>
       <details key="line" value="7"/>
     </eAnnotations>
     <eAnnotations source="positions.2" references="/0/generateElement/@body.0/@body.0">
-      <details key="start" value="188"/>
-      <details key="end" value="201"/>
+      <details key="start" value="212"/>
+      <details key="end" value="268"/>
       <details key="line" value="8"/>
     </eAnnotations>
     <eAnnotations source="positions.3" references="/0/generateElement/@body.0/@body.1">
-      <details key="start" value="202"/>
-      <details key="end" value="211"/>
+      <details key="start" value="269"/>
+      <details key="end" value="278"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.4" references="/0/generateElement/@body.0/@body.1/card">
-      <details key="start" value="202"/>
-      <details key="end" value="206"/>
+      <details key="start" value="269"/>
+      <details key="end" value="273"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.5" references="/0/generateElement/@body.0/@body.2">
-      <details key="start" value="213"/>
-      <details key="end" value="218"/>
-      <details key="line" value="8"/>
+      <details key="start" value="280"/>
+      <details key="end" value="283"/>
+      <details key="line" value="12"/>
     </eAnnotations>
-    <eAnnotations source="positions.6" references="/0/generateElement/@body.0/@fileUrl">
+    <eAnnotations source="positions.6" references="/0/generateElement/@body.0/@body.3">
+      <details key="start" value="284"/>
+      <details key="end" value="374"/>
+      <details key="line" value="13"/>
+    </eAnnotations>
+    <eAnnotations source="positions.7" references="/0/generateElement/@body.0/@body.3/@body.0">
+      <details key="start" value="332"/>
+      <details key="end" value="348"/>
+      <details key="line" value="14"/>
+    </eAnnotations>
+    <eAnnotations source="positions.8" references="/0/generateElement/@body.0/@body.3/@body.1">
+      <details key="start" value="349"/>
+      <details key="end" value="363"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.9" references="/0/generateElement/@body.0/@body.3/@body.1/attribute">
+      <details key="start" value="349"/>
+      <details key="end" value="358"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.10" references="/0/generateElement/@body.0/@body.3/@body.2">
+      <details key="start" value="365"/>
+      <details key="end" value="367"/>
+      <details key="line" value="14"/>
+    </eAnnotations>
+    <eAnnotations source="positions.11" references="/0/generateElement/@body.0/@body.3/attribute">
+      <details key="start" value="290"/>
+      <details key="end" value="311"/>
+      <details key="line" value="13"/>
+    </eAnnotations>
+    <eAnnotations source="positions.12" references="/0/generateElement/@body.0/@body.3/@iterSet">
+      <details key="start" value="314"/>
+      <details key="end" value="329"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.13" references="/0/generateElement/@body.0/@body.3/@iterSet/card">
+      <details key="start" value="314"/>
+      <details key="end" value="318"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.14" references="/0/generateElement/@body.0/@body.4">
+      <details key="start" value="375"/>
+      <details key="end" value="377"/>
+      <details key="line" value="16"/>
+    </eAnnotations>
+    <eAnnotations source="positions.15" references="/0/generateElement/@body.0/@fileUrl">
       <details key="start" value="160"/>
-      <details key="end" value="169"/>
+      <details key="end" value="193"/>
       <details key="line" value="0"/>
     </eAnnotations>
-    <eAnnotations source="positions.7" references="/0/generateElement/@body.0/@fileUrl/card">
+    <eAnnotations source="positions.16" references="/0/generateElement/@body.0/@fileUrl/@source">
       <details key="start" value="160"/>
-      <details key="end" value="164"/>
+      <details key="end" value="183"/>
       <details key="line" value="0"/>
     </eAnnotations>
-    <eAnnotations source="positions.8" references="/0/generateElement/@body.0/@charset">
-      <details key="start" value="178"/>
-      <details key="end" value="185"/>
+    <eAnnotations source="positions.17" references="/0/generateElement/@body.0/@fileUrl/@source/@source">
+      <details key="start" value="160"/>
+      <details key="end" value="171"/>
       <details key="line" value="0"/>
     </eAnnotations>
-    <eAnnotations source="positions.9" references="/0/generateElement/card">
+    <eAnnotations source="positions.18" references="/0/generateElement/@body.0/@fileUrl/@source/@argument.0">
+      <details key="start" value="174"/>
+      <details key="end" value="183"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.19" references="/0/generateElement/@body.0/@fileUrl/@source/@argument.0/card">
+      <details key="start" value="174"/>
+      <details key="end" value="178"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.20" references="/0/generateElement/@body.0/@fileUrl/@argument.0">
+      <details key="start" value="186"/>
+      <details key="end" value="193"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.21" references="/0/generateElement/@body.0/@charset">
+      <details key="start" value="202"/>
+      <details key="end" value="209"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.22" references="/0/generateElement/card">
       <details key="start" value="122"/>
       <details key="end" value="133"/>
       <details key="line" value="5"/>
+    </eAnnotations>
+    <eAnnotations source="positions.23" references="/0/name">
+      <details key="start" value="398"/>
+      <details key="end" value="1241"/>
+      <details key="line" value="20"/>
+    </eAnnotations>
+    <eAnnotations source="positions.24" references="/0/name/@body.0">
+      <details key="start" value="462"/>
+      <details key="end" value="1229"/>
+      <details key="line" value="22"/>
+    </eAnnotations>
+    <eAnnotations source="positions.25" references="/0/name/@body.0/@body.0">
+      <details key="start" value="509"/>
+      <details key="end" value="596"/>
+      <details key="line" value="23"/>
+    </eAnnotations>
+    <eAnnotations source="positions.26" references="/0/name/@body.0/@body.1">
+      <details key="start" value="596"/>
+      <details key="end" value="678"/>
+      <details key="line" value="28"/>
+    </eAnnotations>
+    <eAnnotations source="positions.27" references="/0/name/@body.0/@body.1/@body.0">
+      <details key="start" value="642"/>
+      <details key="end" value="658"/>
+      <details key="line" value="29"/>
+    </eAnnotations>
+    <eAnnotations source="positions.28" references="/0/name/@body.0/@body.1/@body.1">
+      <details key="start" value="659"/>
+      <details key="end" value="668"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.29" references="/0/name/@body.0/@body.1/@body.1/card">
+      <details key="start" value="659"/>
+      <details key="end" value="663"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.30" references="/0/name/@body.0/@body.1/@body.2">
+      <details key="start" value="670"/>
+      <details key="end" value="672"/>
+      <details key="line" value="29"/>
+    </eAnnotations>
+    <eAnnotations source="positions.31" references="/0/name/@body.0/@body.1/card">
+      <details key="start" value="602"/>
+      <details key="end" value="613"/>
+      <details key="line" value="28"/>
+    </eAnnotations>
+    <eAnnotations source="positions.32" references="/0/name/@body.0/@body.1/@iterSet">
+      <details key="start" value="616"/>
+      <details key="end" value="639"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.33" references="/0/name/@body.0/@body.1/@iterSet/container">
+      <details key="start" value="616"/>
+      <details key="end" value="625"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.34" references="/0/name/@body.0/@body.2">
+      <details key="start" value="679"/>
+      <details key="end" value="826"/>
+      <details key="line" value="31"/>
+    </eAnnotations>
+    <eAnnotations source="positions.35" references="/0/name/@body.0/@body.3">
+      <details key="start" value="827"/>
+      <details key="end" value="830"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.36" references="/0/name/@body.0/@body.4">
+      <details key="start" value="834"/>
+      <details key="end" value="837"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.37" references="/0/name/@body.0/@body.5">
+      <details key="start" value="839"/>
+      <details key="end" value="1038"/>
+      <details key="line" value="39"/>
+    </eAnnotations>
+    <eAnnotations source="positions.38" references="/0/name/@body.0/@body.6">
+      <details key="start" value="1041"/>
+      <details key="end" value="1176"/>
+      <details key="line" value="46"/>
+    </eAnnotations>
+    <eAnnotations source="positions.39" references="/0/name/@body.0/@body.6/@body.0">
+      <details key="start" value="1087"/>
+      <details key="end" value="1091"/>
+      <details key="line" value="47"/>
+    </eAnnotations>
+    <eAnnotations source="positions.40" references="/0/name/@body.0/@body.6/@body.1">
+      <details key="start" value="1092"/>
+      <details key="end" value="1101"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.41" references="/0/name/@body.0/@body.6/@body.1/card">
+      <details key="start" value="1092"/>
+      <details key="end" value="1096"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.42" references="/0/name/@body.0/@body.6/@body.2">
+      <details key="start" value="1103"/>
+      <details key="end" value="1104"/>
+      <details key="line" value="47"/>
+    </eAnnotations>
+    <eAnnotations source="positions.43" references="/0/name/@body.0/@body.6/@body.3">
+      <details key="start" value="1105"/>
+      <details key="end" value="1114"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.44" references="/0/name/@body.0/@body.6/@body.3/card">
+      <details key="start" value="1105"/>
+      <details key="end" value="1109"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.45" references="/0/name/@body.0/@body.6/@body.4">
+      <details key="start" value="1116"/>
+      <details key="end" value="1123"/>
+      <details key="line" value="47"/>
+    </eAnnotations>
+    <eAnnotations source="positions.46" references="/0/name/@body.0/@body.6/@body.5">
+      <details key="start" value="1124"/>
+      <details key="end" value="1133"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.47" references="/0/name/@body.0/@body.6/@body.5/card">
+      <details key="start" value="1124"/>
+      <details key="end" value="1128"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.48" references="/0/name/@body.0/@body.6/@body.6">
+      <details key="start" value="1135"/>
+      <details key="end" value="1152"/>
+      <details key="line" value="47"/>
+    </eAnnotations>
+    <eAnnotations source="positions.49" references="/0/name/@body.0/@body.6/@body.7">
+      <details key="start" value="1153"/>
+      <details key="end" value="1162"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.50" references="/0/name/@body.0/@body.6/@body.7/card">
+      <details key="start" value="1153"/>
+      <details key="end" value="1157"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.51" references="/0/name/@body.0/@body.6/@body.8">
+      <details key="start" value="1164"/>
+      <details key="end" value="1167"/>
+      <details key="line" value="48"/>
+    </eAnnotations>
+    <eAnnotations source="positions.52" references="/0/name/@body.0/@body.6/card">
+      <details key="start" value="1047"/>
+      <details key="end" value="1058"/>
+      <details key="line" value="46"/>
+    </eAnnotations>
+    <eAnnotations source="positions.53" references="/0/name/@body.0/@body.6/@iterSet">
+      <details key="start" value="1061"/>
+      <details key="end" value="1084"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.54" references="/0/name/@body.0/@body.6/@iterSet/container">
+      <details key="start" value="1061"/>
+      <details key="end" value="1070"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.55" references="/0/name/@body.0/@body.7">
+      <details key="start" value="1177"/>
+      <details key="end" value="1222"/>
+      <details key="line" value="50"/>
+    </eAnnotations>
+    <eAnnotations source="positions.56" references="/0/name/@body.0/@fileUrl">
+      <details key="start" value="469"/>
+      <details key="end" value="489"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.57" references="/0/name/@body.0/@charset">
+      <details key="start" value="498"/>
+      <details key="end" value="506"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.58" references="/0/name/container">
+      <details key="start" value="420"/>
+      <details key="end" value="441"/>
+      <details key="line" value="20"/>
     </eAnnotations>
   </ecore:EAnnotation>
 </xmi:XMI>

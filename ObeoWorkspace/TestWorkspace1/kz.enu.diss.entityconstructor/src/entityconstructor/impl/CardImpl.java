@@ -37,6 +37,7 @@ import org.eclipse.emf.ecore.util.InternalEList;
  *   <li>{@link entityconstructor.impl.CardImpl#getChildClasses <em>Child Classes</em>}</li>
  *   <li>{@link entityconstructor.impl.CardImpl#getParentClass <em>Parent Class</em>}</li>
  *   <li>{@link entityconstructor.impl.CardImpl#getDictionaries <em>Dictionaries</em>}</li>
+ *   <li>{@link entityconstructor.impl.CardImpl#getCode <em>Code</em>}</li>
  * </ul>
  * </p>
  *
@@ -102,6 +103,26 @@ public class CardImpl extends EObjectImpl implements Card {
 	 * @ordered
 	 */
 	protected EList<Dictionary> dictionaries;
+
+	/**
+	 * The default value of the '{@link #getCode() <em>Code</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getCode()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final String CODE_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getCode() <em>Code</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getCode()
+	 * @generated
+	 * @ordered
+	 */
+	protected String code = CODE_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -244,6 +265,27 @@ public class CardImpl extends EObjectImpl implements Card {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public String getCode() {
+		return code;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setCode(String newCode) {
+		String oldCode = code;
+		code = newCode;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, EntityconstructorPackage.CARD__CODE, oldCode, code));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@SuppressWarnings("unchecked")
 	@Override
 	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
@@ -295,6 +337,8 @@ public class CardImpl extends EObjectImpl implements Card {
 				return basicGetParentClass();
 			case EntityconstructorPackage.CARD__DICTIONARIES:
 				return getDictionaries();
+			case EntityconstructorPackage.CARD__CODE:
+				return getCode();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -326,6 +370,9 @@ public class CardImpl extends EObjectImpl implements Card {
 				getDictionaries().clear();
 				getDictionaries().addAll((Collection<? extends Dictionary>)newValue);
 				return;
+			case EntityconstructorPackage.CARD__CODE:
+				setCode((String)newValue);
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -353,6 +400,9 @@ public class CardImpl extends EObjectImpl implements Card {
 			case EntityconstructorPackage.CARD__DICTIONARIES:
 				getDictionaries().clear();
 				return;
+			case EntityconstructorPackage.CARD__CODE:
+				setCode(CODE_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -375,6 +425,8 @@ public class CardImpl extends EObjectImpl implements Card {
 				return parentClass != null;
 			case EntityconstructorPackage.CARD__DICTIONARIES:
 				return dictionaries != null && !dictionaries.isEmpty();
+			case EntityconstructorPackage.CARD__CODE:
+				return CODE_EDEFAULT == null ? code != null : !CODE_EDEFAULT.equals(code);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -391,6 +443,8 @@ public class CardImpl extends EObjectImpl implements Card {
 		StringBuffer result = new StringBuffer(super.toString());
 		result.append(" (name: ");
 		result.append(name);
+		result.append(", code: ");
+		result.append(code);
 		result.append(')');
 		return result.toString();
 	}

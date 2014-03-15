@@ -178,6 +178,15 @@ public class EntityconstructorPackageImpl extends EPackageImpl implements Entity
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EAttribute getCard_Code() {
+		return (EAttribute)cardEClass.getEStructuralFeatures().get(5);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getAttribute() {
 		return attributeEClass;
 	}
@@ -288,6 +297,7 @@ public class EntityconstructorPackageImpl extends EPackageImpl implements Entity
 		createEReference(cardEClass, CARD__CHILD_CLASSES);
 		createEReference(cardEClass, CARD__PARENT_CLASS);
 		createEReference(cardEClass, CARD__DICTIONARIES);
+		createEAttribute(cardEClass, CARD__CODE);
 
 		attributeEClass = createEClass(ATTRIBUTE);
 		createEAttribute(attributeEClass, ATTRIBUTE__NAME);
@@ -339,6 +349,7 @@ public class EntityconstructorPackageImpl extends EPackageImpl implements Entity
 		initEReference(getCard_ChildClasses(), this.getCard(), this.getCard_ParentClass(), "ChildClasses", null, 0, -1, Card.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCard_ParentClass(), this.getCard(), this.getCard_ChildClasses(), "ParentClass", null, 0, 1, Card.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCard_Dictionaries(), this.getDictionary(), null, "Dictionaries", null, 0, -1, Card.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getCard_Code(), ecorePackage.getEString(), "code", null, 0, 1, Card.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(attributeEClass, Attribute.class, "Attribute", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getAttribute_Name(), ecorePackage.getEString(), "name", null, 0, 1, Attribute.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

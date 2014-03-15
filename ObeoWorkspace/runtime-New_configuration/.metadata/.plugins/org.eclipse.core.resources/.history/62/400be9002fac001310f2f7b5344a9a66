@@ -1,0 +1,4 @@
+public class Group {
+		public String Name;
+		public String Language;
+}

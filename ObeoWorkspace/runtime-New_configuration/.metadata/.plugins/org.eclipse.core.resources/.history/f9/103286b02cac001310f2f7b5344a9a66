@@ -1,0 +1,14 @@
+[comment encoding = UTF-8 /]
+[module generate('http://diss.enu.kz/entityconstructor')]
+
+
+[template public generateElement(card : Card)]
+[comment @main/]
+[file (card.name, false, 'UTF-8')]
+public class [card.code/] {
+	[for (attribute : Attribute | card.Attributes)]
+		public String [attribute.name/];
+	[/for]
+}
+[/file]
+[/template]

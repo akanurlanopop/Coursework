@@ -19,6 +19,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link entityconstructor.Card#getChildClasses <em>Child Classes</em>}</li>
  *   <li>{@link entityconstructor.Card#getParentClass <em>Parent Class</em>}</li>
  *   <li>{@link entityconstructor.Card#getDictionaries <em>Dictionaries</em>}</li>
+ *   <li>{@link entityconstructor.Card#getCode <em>Code</em>}</li>
  * </ul>
  * </p>
  *
@@ -130,5 +131,31 @@ public interface Card extends EObject {
 	 * @generated
 	 */
 	EList<Dictionary> getDictionaries();
+
+	/**
+	 * Returns the value of the '<em><b>Code</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Code</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Code</em>' attribute.
+	 * @see #setCode(String)
+	 * @see entityconstructor.EntityconstructorPackage#getCard_Code()
+	 * @model
+	 * @generated
+	 */
+	String getCode();
+
+	/**
+	 * Sets the value of the '{@link entityconstructor.Card#getCode <em>Code</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Code</em>' attribute.
+	 * @see #getCode()
+	 * @generated
+	 */
+	void setCode(String value);
 
 } // Card
